@@ -13,8 +13,8 @@
     ### Run
       #### docker compose up
   ## Routes
-    ### [GET] /api/v1/stores
-    ### [POST] /api/v1/stores/add
+    ### [GET] localhost:3000/api/v1/stores
+    ### [POST] localhost:3000/api/v1/stores/add
       #### json body example
         ##### {
           	"new_store": {
@@ -22,7 +22,7 @@
           		"location": "Ecuador"
           	}
           }
-    ### [PUT] /api/v1/stores/update/<store_id>
+    ### [PUT] localhost:3000/api/v1/stores/update/<store_id>
       #### json body example
         ##### {
         	"new_store_data": {
@@ -30,4 +30,4 @@
         		"location": "Colombia"
         	}
         }
-    ### [DELETE] /api/v1/stores/delete/<store_id>
+    ### [DELETE] localhost:3000/api/v1/stores/delete/<store_id>
