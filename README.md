@@ -5,14 +5,14 @@
     ### PyMongo 4.7.2
     ### Waitress 3.0.0
     ### Docker - DockerCompose
-  ## To use it
+  ## To run it
     ### Clone the repository and add the following env variables using the terminal (required)
       #### MONGO_DB_URI = "The uri of your mongodb instance"
       #### MONGO_DB_NAME = "The name of your database inside your mongodb instance"
       #### PORT = "The port for you API inside your docker container"
     ### Run
       #### docker compose up
-  ## Routes
+  ## Routes to use it
     ### [GET] localhost:3000/api/v1/stores
     ### [POST] localhost:3000/api/v1/stores/add
       #### json body example
